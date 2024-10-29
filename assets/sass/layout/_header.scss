@@ -1,0 +1,41 @@
+.page__header {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr; /* Tres columnas para la img title y menu */
+    align-items: center;
+    background-color: $header-color;
+    padding: 20px;
+}
+.header__row {
+    display: contents; 
+}
+
+.header__image {
+    display: flex;
+    justify-content:space-around;
+    align-items: center; 
+    height: 200px; 
+    width: auto; 
+
+}
+
+.header__title-wrapper {
+    display: flex; 
+    flex-direction: column;
+    text-align: center; 
+    align-items: center;
+    margin: 0 auto;
+}
+.header__title {
+    font-size: 3rem; 
+    
+}
+
+.header__subtitle {
+    font-size: 2rem; 
+    
+}
+.header__menu {
+    display: flex; 
+    justify-content:space-around; 
+    align-items: center; 
+}

@@ -1,0 +1,11 @@
+.page {
+    display:grid;
+    grid-template-rows: auto 1fr auto;
+   
+    font-family:'Lucida Sans', 'Lucida Sans Regular';
+    h1 h5 {
+        color: $h1-h5-color;
+        text-align: center;
+        font-size: 50px;
+    }
+}
